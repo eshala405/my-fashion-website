@@ -1,0 +1,62 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Bubbly font example */
+    background-color: #f0f8ff; /* Light pastel blue */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #ffb6c1; /* Light pastel pink */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.intro {
+    background-color: #e0ffff; /* Light pastel cyan */
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.gallery {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    background-color: #ffe4e1; /* Light pastel coral */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 150px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ffb6c1; /* Light pastel pink */
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
